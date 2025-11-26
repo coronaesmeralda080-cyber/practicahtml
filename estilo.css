@@ -1,3 +1,41 @@
 body{
     background-color: rgb(255, 187, 0);
 }
+
+.titulo{
+    text-align: center;
+    font-family: arial, sans-derif;
+    font-size: 38px;
+}
+.subtitulo{
+    text-align: center;
+    font-family: arial, sans-derif;
+
+}
+.contenedor{
+    display: flex;
+    gap: 20px;
+}
+.contenedor p{
+    flex: 1;
+background-color: burlywood;
+padding: 20PX;
+border-radius:15PX ;
+border-color: rgb(73, 7, 7);
+}
+.contenedor-imagenes{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.contenedor-imagenes img{
+ flex: 1;
+ background-color: rgb(230, 160, 10);
+ padding: 20px;
+ border-radius: 15px;
+ border-color: blanchedalmond;
+}
+    
+
+}
